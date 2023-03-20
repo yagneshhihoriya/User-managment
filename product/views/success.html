@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Product-Payment</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <style>
+    /* body {
+      background-color: #677D92;
+  } */
+      body {
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    .wraper {
+      margin-top: 10em;
+    }
+
+    .logo {
+      text-align: center;
+    }
+
+    .icon img {
+      text-align: center;
+      /*margin-left: 10em;*/
+      height: 150px;
+      width: 150px;
+
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .submit-btn {
+      width: 12em;
+    }
+    a {
+    margin-left: 60px;
+    }
+    a img {
+      height: 60px;
+      margin-left: 40px;
+    }
+    #loader {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.75) url(../../../../assets/img/loading.gif) no-repeat center center;
+      z-index: 10000;
+    }
+    .space {
+      margin-top: 1.2rem;
+    }
+    .space-gap {
+      margin-top: 7rem;
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="row wraper">
+    <div class="col-sm-offset-3  col-sm-5">
+      <div class="logo col-sm-offset-2">
+          <img src="/uploads/logo/logo.jpg" width="50px" height="50px" />
+      </div><br>
+      <div class="form-group col-sm-offset-3">
+        <h4 class="text-center" style="color:green; font-weight:bold" id="response_text">Subscribed Successfully</h4>
+      </div>
+      <div class="space-gap"></div>
+      <div class="form-group col-sm-offset-3">
+        <h4 class="text-center" >
+          <strong>Congratulations.!</strong>  <br><br>
+          Welcome to Product System <br><br>
+          You payment successfully. <br>
+        </h4><br><br>
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>
